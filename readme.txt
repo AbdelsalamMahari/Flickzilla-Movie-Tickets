@@ -1,4 +1,4 @@
-Flickzilla is a cinema booking system made by Mohamad Fawaz,Ali Nahle,Wafik safa and Abed el salam mahari
+Flickzilla is a cinema booking system made by Mohamad Fawaz, Ali Nahle, Wafik Safa and Abdelsalam Mahari
 This website provide solutions booking inside cinemas and make it easier for cinema owners to make and adjust there
 movie rooms as they like depending on the time that the movie is going to be displayed.
 
