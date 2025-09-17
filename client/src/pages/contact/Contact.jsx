@@ -46,7 +46,7 @@ const Contact = () => {
         <div className="movie-info-container">
           <div className="robot-about">
             <img
-              src="https://i0.wp.com/gdcindia.co.in/wp-content/uploads/2019/03/contact-us-background.jpg?ssl=1"
+              src="https://image.tmdb.org/t/p/original/8J6UlIFcU7eZfq9iCLbgc8Auklg.jpg"
               alt="interstellar"
             />
             <h1 className="md:text-4xl lg:text-4xl xl:text-5xl font-bold">

@@ -9,7 +9,7 @@ export default function Menu() {
         <div className="movie-info-container">
           <div className="robot-about">
             <img
-              src="https://www.myvue.com/-/media/1536x864_retail_banner_3_snacks_no_text-min.jpg?sc=.99"
+              src="https://img.freepik.com/premium-photo/plate-with-popcorn-movie-clapper-red-background-place-text_178193-826.jpg"
               alt="interstellar"
             />
             <h1 className="md:text-4xl lg:text-4xl xl:text-5xl font-bold">

@@ -141,25 +141,25 @@ module.exports.saveMovie = async (req, res) => {
       );
 
       // Send email to all users
-      const allUsers = await User.find(); // Replace with the actual way you retrieve users
-      const movieLink = `http://localhost:3000/movies/${movie._id}`; // Replace with the actual movie link
+      // const allUsers = await User.find(); // Replace with the actual way you retrieve users
+      // const movieLink = `http://localhost:3000/movies/${movie._id}`; // Replace with the actual movie link
 
-      const emailPromises = allUsers.map(async (user) => {
-        let subject;
-        let htmlContent;
+      // const emailPromises = allUsers.map(async (user) => {
+      //   let subject;
+      //   let htmlContent;
 
-        if (isComingSoon) {
-          subject = `New Upcoming Movie Alert: ${populatedMovie.title}`;
-          htmlContent = emailComings(user, populatedMovie, movieLink);
-        } else {
-          subject = `New Movie Alert: ${populatedMovie.title}`;
-          htmlContent = generateEmailContent(user, populatedMovie, movieLink);
-        }
+      //   if (isComingSoon) {
+      //     subject = `New Upcoming Movie Alert: ${populatedMovie.title}`;
+      //     htmlContent = emailComings(user, populatedMovie, movieLink);
+      //   } else {
+      //     subject = `New Movie Alert: ${populatedMovie.title}`;
+      //     htmlContent = generateEmailContent(user, populatedMovie, movieLink);
+      //   }
 
-        await sendEmail(user.email, subject, htmlContent);
-      });
+      //   await sendEmail(user.email, subject, htmlContent);
+      // });
 
-      await Promise.all(emailPromises);
+      // await Promise.all(emailPromises);
 
       console.log("Added Successfully...");
       console.log(populatedMovie, credits);
